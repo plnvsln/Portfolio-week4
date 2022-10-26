@@ -1,8 +1,38 @@
 body {
-  background-color: rgba(241, 234, 234, 1);
+  margin: 0 auto;
+  font-family: "Arapey", serif;
 }
 h1,
 h2,
 h3 {
   font-family: "Cormorant Garamond", serif;
+}
+h1 {
+  font-size: 96px;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 24px;
+  margin: 0px 20px 60px 20px;
+}
+.hero {
+  background: linear-gradient(
+    109.6deg,
+    rgb(245, 239, 249) 30.1%,
+    rgb(207, 211, 236) 100.2%
+  );
+  padding: 150px 0px;
+  text-align: center;
+}
+.hero a {
+  background-color: rgba(244, 222, 222, 1);
+  border: solid black 1px;
+  border-radius: 4px;
+  color: black;
+  font-size: 18px;
+  padding: 15px 30px;
+  text-decoration: none;
 }
