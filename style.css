@@ -29,15 +29,39 @@ h3 {
   padding: 150px 0px;
   text-align: center;
 }
-.hero a {
-  background-color: rgba(244, 222, 222, 1);
-  border: solid black 1px;
+.contact-button {
+  border: solid rgb(159, 118, 118) 1px;
   border-radius: 4px;
-  color: black;
+  color: rgb(112, 75, 75);
   font-size: 18px;
   padding: 15px 30px;
   text-decoration: none;
+
+  background: linear-gradient(
+      to right,
+      rgba(244, 222, 222, 1),
+      rgba(244, 222, 222, 1)
+    ),
+    linear-gradient(
+      to right,
+      rgb(255, 251, 223),
+      rgb(251, 228, 49),
+      rgb(255, 213, 162),
+      rgb(240, 197, 255),
+      rgb(249, 172, 226),
+      rgb(170, 212, 254)
+    );
+  background-size: 100% 5px, 0 10px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 700ms;
+  background-color: rgba(244, 222, 222, 1);
 }
+.contact-button:hover {
+  background-size: 0 3px, 100% 5px;
+  color: rgb(202, 118, 176);
+}
+
 .row {
   background: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
   border-radius: 10px;
@@ -52,11 +76,11 @@ h3 {
   padding: 15px 30px;
   text-align: center;
   text-decoration: none;
-  transition: 150ms ease-in-out;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 .learn-more-link:hover {
-  background-color: rgb(249, 247, 244);
-  color: black;
+  box-shadow: inset 200px 0 0 0 rgba(244, 222, 222, 1);
+  color: rgb(86, 57, 57);
 }
 img {
   display: block;
@@ -66,5 +90,4 @@ img {
 p {
   font-size: 20px;
   padding: 20px;
-  text-align: center;
 }
