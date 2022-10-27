@@ -121,6 +121,34 @@ p {
   color: rgb(81, 148, 247);
 }
 
+@media (max-width: 992px) {
+  .container p {
+    text-align: center;
+  }
+  .learn-more-link {
+    display: block;
+  }
+}
+@media (max-width: 576px) {
+  .hero {
+    padding: 60px 0px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 17px;
+  }
+  .footer {
+    padding: 20px;
+  }
+}
 /* 
 Gradient Button
 
