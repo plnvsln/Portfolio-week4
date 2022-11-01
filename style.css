@@ -91,11 +91,12 @@ h3 {
   border: #9854ff solid 1px;
   color: #9854ff;
 }
-img {
+.img-portfolio {
   display: block;
   border-radius: 4px;
   margin: 0 auto;
 }
+
 p {
   font-size: 20px;
   padding: 20px;
@@ -148,6 +149,29 @@ p {
   .footer {
     padding: 20px;
   }
+}
+.about-page {
+  margin: 40px;
+  padding-left: 50px;
+  text-align: right;
+}
+.about-page h1 {
+  font-size: 70px;
+}
+.about-page h2 {
+  font-size: 30px;
+}
+.about-page .contact-button {
+  display: block;
+  margin: 30px 150px;
+  text-align: center;
+}
+.img-about {
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  margin-left: 5px;
+  width: 50%;
 }
 /* 
 Gradient Button
