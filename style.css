@@ -1,14 +1,15 @@
 body {
-  background-color: rgba(250, 220, 255, 0.246);
+  background-color: rgba(239, 220, 242, 0.246);
   margin: 0 auto;
   font-family: "Arapey", serif;
 }
+
 h1,
 h2,
 h3 {
   font-family: "Cormorant Garamond", serif;
 }
-h1 {
+.hero h1 {
   font-size: 96px;
   margin: 0 auto;
 
@@ -32,7 +33,7 @@ h1 {
   transition: background-size 700ms;
 }
 
-h1:hover {
+.hero h1:hover {
   background-size: 0 3px, 100% 8px;
 }
 
@@ -121,6 +122,11 @@ p {
 .email:hover {
   color: rgb(81, 148, 247);
 }
+.footer small {
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+}
 
 @media (max-width: 992px) {
   .container p {
@@ -175,11 +181,17 @@ p {
 }
 
 .work-page {
-  background-color: #f8f6e7;
   margin: 40px;
   padding: 30px;
+  text-align: center;
 }
 
+.work-section {
+  margin-bottom: 35px;
+}
+.work-page h1 {
+  font-size: 60px;
+}
 /* 
 Gradient Button
 
