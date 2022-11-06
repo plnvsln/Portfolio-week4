@@ -103,20 +103,18 @@ p {
   );
   padding: 50px;
 }
-.email {
-  color: rgb(56, 102, 170);
-  display: block;
-  font-size: 25px;
-  text-align: center;
-  text-decoration: none;
+.main-page-icon a {
+  background-color: #e9defa;
+  border-radius: 50%;
+  color: rgb(130, 56, 170);
+  font-size: 35px;
+  margin: 10px;
+  padding: 10px 20px;
+  transition: all 150ms ease-in-out;
 }
-.email:hover {
-  color: rgb(81, 148, 247);
-}
-.footer small {
-  display: block;
-  margin-top: 30px;
-  text-align: center;
+.main-page-icon a:hover {
+  background-color: rgb(130, 56, 170);
+  color: #e9defa;
 }
 
 .about-page {
