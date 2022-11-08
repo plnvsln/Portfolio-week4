@@ -101,8 +101,9 @@ p {
     rgb(245, 239, 249) 30.1%,
     rgb(207, 211, 236) 100.2%
   );
-  padding: 50px;
+  padding: 20px;
 }
+
 .main-page-icon a {
   background-color: #e9defa;
   border-radius: 50%;
@@ -118,7 +119,12 @@ p {
 }
 
 .about-page {
-  margin: 50px;
+  background: linear-gradient(
+    109.6deg,
+    rgb(245, 239, 249) 30.1%,
+    rgb(207, 211, 236) 100.2%
+  );
+  padding-top: 50px;
   padding-right: 50px;
   text-align: left;
 }
@@ -152,7 +158,24 @@ p {
 .work-page h1 {
   font-size: 60px;
 }
-
+.contact-page .container {
+  margin: 100px;
+}
+.contact-page h1 {
+  font-size: 70px;
+}
+form {
+  border: solid 1px rgb(130, 56, 170);
+  border-radius: 5px;
+  padding: 20px;
+  margin: auto;
+  max-width: 60%;
+}
+.button-form {
+  background-color: rgb(149, 86, 183);
+  color: #e9defa;
+  font-size: 18px;
+}
 @media (max-width: 992px) {
   .container p {
     text-align: center;
@@ -167,7 +190,8 @@ p {
   }
   h1,
   .about-page h1,
-  .work-page h1 {
+  .work-page h1,
+  .contact-page h1 {
     font-size: 40px;
   }
   h2 {
@@ -184,9 +208,6 @@ p {
   }
   .about-page .contact-button {
     margin: 30px;
-  }
-  .footer {
-    padding: 20px;
   }
 }
 /* 
