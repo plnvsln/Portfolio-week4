@@ -163,6 +163,7 @@ p {
 }
 .contact-page h1 {
   font-size: 70px;
+  margin-top: 100px;
 }
 form {
   border: solid 1px rgb(130, 56, 170);
@@ -206,8 +207,12 @@ form {
   p {
     font-size: 17px;
   }
-  .about-page .contact-button {
+  .about-page .contact-button,
+  .learn-more-link {
     margin: 30px;
+  }
+  form {
+    margin-left: 10px;
   }
 }
 /* 
