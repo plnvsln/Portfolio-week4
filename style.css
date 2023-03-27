@@ -81,12 +81,15 @@ img {
   border: solid black 1px;
   border-radius: 4px;
   color: black;
+  display: block;
   font-size: 20px;
   margin: 20px;
+  margin-bottom: 40px;
   padding: 15px 30px;
   text-align: center;
   text-decoration: none;
   transition: color 150ms ease-in-out;
+  width: 30%;
 }
 .learn-more-link:hover {
   background-color: #e9defa;
@@ -95,8 +98,8 @@ img {
 }
 p {
   font-size: 20px;
-  padding: 20px;
   opacity: 70%;
+  padding: 20px;
 }
 .footer {
   background: linear-gradient(
@@ -167,6 +170,12 @@ p {
   form {
     margin: auto 10px;
   }
+}
+
+.project-icon {
+  max-width: 80%;
+  margin-bottom: 20px;
+  margin-left: 50px;
 }
 /* 
 Gradient Button
