@@ -49,6 +49,10 @@ h3 {
   font-size: 24px;
   margin: 0px 20px 60px 20px;
 }
+.header {
+  padding: 15px;
+  color: #515658;
+}
 .hero {
   background: linear-gradient(
     109.6deg,
@@ -166,18 +170,6 @@ nav {
   color: #e9defa;
 }
 
-/* .work-page {
-  margin: 40px;
-  padding: 30px;
-  text-align: center;
-}
-.work-section {
-  margin-bottom: 35px;
-}
-.work-page h1 {
-  font-size: 60px;
-} */
-
 @media (min-width: 1200px) {
   .about-me-content {
     margin: 0 auto;
@@ -235,38 +227,3 @@ nav {
   margin-bottom: 20px;
   margin-left: 50px;
 }
-/* 
-Gradient Button
-
-.contact-button {
-  border: solid rgb(159, 118, 118) 1px;
-  border-radius: 4px;
-  color: rgb(112, 75, 75);
-  font-size: 18px;
-  padding: 15px 30px;
-  text-decoration: none;
-
-  background: linear-gradient(
-      to right,
-      rgba(244, 222, 222, 1),
-      rgba(244, 222, 222, 1)
-    ),
-    linear-gradient(
-      to right,
-      rgb(255, 251, 223),
-      rgb(251, 228, 49),
-      rgb(255, 213, 162),
-      rgb(240, 197, 255),
-      rgb(249, 172, 226),
-      rgb(170, 212, 254)
-    );
-  background-size: 100% 5px, 0 10px;
-  background-position: 100% 100%, 0 100%;
-  background-repeat: no-repeat;
-  transition: background-size 700ms;
-  background-color: rgba(244, 222, 222, 1);
-}
-.contact-button:hover {
-  background-size: 0 3px, 100% 5px;
-  color: rgb(202, 118, 176);
-} */
